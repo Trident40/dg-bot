@@ -1,4 +1,6 @@
-# dg-discord — ArcaneMP Server Bridge & Standalone Discord Bot
+# dg-discord — ArcaneMP Server Bridge & Standalone Discord Bot - FREE VERSION.
+
+This is a stripped down version to what I run on my server. I've made this free for the ArcaneMP Community. 
 
 Complete two-part Discord integration for **ArcaneMP (HogwartsMP) Foundations**:
 1. **`resources/dg-discord/`** — Lightweight in-server HTTP/SSE bridge + MySQL migrations + in-game `/link` linking.
