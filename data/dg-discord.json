@@ -1,0 +1,33 @@
+{
+  "$schema": "https://github.com/arcane-mp/foundations/dg-discord.schema.json",
+  "enabled": true,
+  "serverDisplayName": "Hogwarts ArcaneMP RP",
+  "rootAdminDiscordIds": [
+    "ADMINDISCORDIDHERE"
+  ],
+  "bridge": {
+    "host": "127.0.0.1",
+    "port": 4190,
+    "secretEnvVar": "MAKE-SECRET-PASSWORD-HERE. MUST BE THE SAME ON BOT",
+    "secret": "",
+    "replayWindowMs": 60000
+  },
+  "mysqlFallback": {
+    "enabled": true,
+    "drainQueueIntervalSeconds": 10,
+    "houseSnapshotIntervalSeconds": 30
+  },
+  "linking": {
+    "linkCommand": "link",
+    "unlinkCommand": "unlink",
+    "codeExpiryMinutes": 10
+  },
+  "auditLogs": {
+    "joinsAndLeaves": true,
+    "sortingResults": true,
+    "academyMilestones": true,
+    "wandPurchases": true,
+    "staffModeration": true,
+    "accountLinking": true
+  }
+}
